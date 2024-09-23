@@ -1,0 +1,2 @@
+API Integration Mini Project 
+Here we are calling an API so that we can extract necessary infromation from the website. The user can enter the pokemon they would like to see featured on the "Pokemon of the week" tab while on the home page. On the home page you can also see the evolutions of the pokemon once it is changed on a weekly basis. The search page tab allows the user to look up any pokemon that is on the 'https://pokeapi.co/' website.

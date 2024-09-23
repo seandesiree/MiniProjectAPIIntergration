@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search  for Pokemons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="searchPage.js" defer></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Search</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="homePage.html" target="_blank">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="detailPage.html" target="_blank">Pokemon Details</a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+    <nav class="=m-0 p-0">
+        <nav class="text-center">
+            <h1>Pokemon Search</h1>
+            <p>Hello! Welcome to the search page. Please enter the pokemon that you would like to know more about below</p>  
+        </nav>
+        <nav class="mx-2 my-auto p-2  max-width:800px text-center">
+            <form id="myForm" onsubmit="pressedSubmit(event)">
+                <label for="searchPokemon">Search Pokemon</label>
+                <input type="text" name="searchPokemon" id="searchPokemon" placeholder="Enter Pokemon">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+        <nav id="pokemonInfo" class="container text-center my-4 bg-light">
+            <img src="snorlax_sleeping.avif" alt="snorlax sleeping">
+
+        </nav>
+    </nav>
+</body>
+</html>

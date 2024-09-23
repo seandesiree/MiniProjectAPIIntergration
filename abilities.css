@@ -1,0 +1,32 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+h1 {
+    color: #333;
+}
+  
+#ability-list {
+    margin-top: 40px;
+    text-align: left;
+}
+  
+.ability {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+  
+.ability h3 {
+    margin: 0;
+    color: #333;
+}
+  
+.ability p {
+    margin: 5px 0 0 0;
+    color: #777;
+}
